@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Contact Us</h2>
+
+    <form action="#" method="post">
+
+        <!-- Personal Details -->
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-group">
+            <label>Date of Birth</label>
+            <input type="date">
+        </div>
+
+        <!-- Address -->
+        <div class="form-group">
+            <label>Address</label>
+            <textarea rows="3" placeholder="Enter your address"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>City</label>
+            <input type="text" placeholder="City">
+        </div>
+
+        <div class="form-group">
+            <label>State</label>
+            <input type="text" placeholder="State">
+        </div>
+
+        <div class="form-group">
+            <label>Country</label>
+            <select>
+                <option value="">Select Country</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Canada</option>
+                <option>Other</option>
+            </select>
+        </div>
+
+        <!-- Gender -->
+        <div class="form-group">
+            <label>Gender</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Other</label>
+            </div>
+        </div>
+
+        <!-- Preferences -->
+        <div class="form-group">
+            <label>Interested In</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Web Development</label>
+                <label><input type="checkbox"> Mobile Apps</label>
+                <label><input type="checkbox"> AI / ML</label>
+                <label><input type="checkbox"> UI / UX</label>
+            </div>
+        </div>
+
+        <!-- File Upload -->
+        <div class="form-group">
+            <label>Upload File</label>
+            <input type="file">
+        </div>
+
+        <!-- Subject -->
+        <div class="form-group">
+            <label>Subject</label>
+            <input type="text" placeholder="Enter subject">
+        </div>
+
+        <!-- Message -->
+        <div class="form-group">
+            <label>Message</label>
+            <textarea rows="4" placeholder="Enter your message"></textarea>
+        </div>
+
+        <!-- Terms -->
+        <div class="form-group">
+            <label class="terms">
+                <input type="checkbox" required>
+                I agree to the terms and conditions
+            </label>
+        </div>
+
+        <!-- Buttons -->
+        <div class="button-group">
+            <button type="submit">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
